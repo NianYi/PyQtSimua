@@ -89,8 +89,7 @@ class load(object):
 		
 			relt = datacursor.fetchone()
 			if relt[0]==None:
-				print 'None'
-				lef=int(msgs[0])-1
+				lef=int(msgs[0])-15
 				if lef < 1:
 					lef = 1
 			else:

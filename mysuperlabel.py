@@ -15,7 +15,7 @@ class mySuperLabel(QWidget):
 
 		#self.setStyleSheet("background-color:rgb(0,0,0)")
 		self.initUI(from_,date_,subject_,content_)
-		self.setFixedWidth(270)
+		#self.setFixedWidth(270)
 	def initUI(self,from_,date_,subject_,content_):
 		singleLine=1
 		doubleLine=2

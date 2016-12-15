@@ -26,7 +26,7 @@ class MainController(QObject):
 		garbageCtl.init()
 		print '切换账户--start'
 		MainController.start()
-		#MainController.jobCtl()
+		MainController.jobCtl()
 	@staticmethod
 	def jobCtl():
 		from threading import Thread

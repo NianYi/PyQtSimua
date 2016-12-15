@@ -20,7 +20,7 @@ class myDescriptionWidget(QWidget):
 		rootlyt = QGridLayout()
 		rootlyt.setContentsMargins(0,0,0,0)
 		rootlyt.addWidget(scrollArea)
-		self.setFixedWidth(275)
+		self.setFixedWidth(285)
 		self.setLayout(rootlyt)
 		self.itemSet=[]
 	@classmethod
