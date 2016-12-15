@@ -1,4 +1,5 @@
 #python
+*.swp
 *.py[cod]
 *.so
 *.egg
