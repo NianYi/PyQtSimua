@@ -1,1 +1,14 @@
-.pyc
+#python
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+
+#host
+usr/currentUser
+usr/fileboxdata
+usr/fileboxdata445919660
+usr/userdb/shadow.db
+usr/datadb/drafts.db
+usr/datadb/mail.db
+usr/datadb/sendmail.db
